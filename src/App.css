@@ -1,0 +1,112 @@
+/* App.css */
+body {
+  background-color: #ea9f59; /* Background color */
+  font-family: Arial, sans-serif;
+  background-image: url('C:\\Users\\LENOVO\\Downloads\\pikaso_texttoimage_generate-teenage-students-sitting-in-the-backgroun.jpeg'); /* Background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* No repeat */
+}
+
+h1 {
+  color:royalblue; /* Change the color to royal blue */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 48px; /* Increase font size */
+  margin: 50px 0 20px; /* Add margin to top (50px) and bottom (20px) */
+  
+}
+.welcome-heading {
+  color: lightpink; /* Light pink color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+
+.user-selection {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height to ensure vertical centering */
+  text-align: center; /* Center text */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  padding: 20px; /* Inner spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.user-selection h2 {
+  font-family: 'Times New Roman', serif; /* Font style */
+  color: hsl(0, 9%, 2%); /* Header color */
+  font-size: 32px; /* Header font size */
+}
+
+.user-selection button {
+  padding: 10px 20px; /* Button padding */
+  margin: 10px; /* Space between buttons */
+  background-color: #77bf50; /* Button color */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.user-selection button:hover {
+  background-color: #a11b20; /* Darker shade on hover */
+}
+
+.form-container {
+  max-width: 600px; /* Max width of form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px; /* Inner spacing */
+  background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  border: 1px solid #ffffff; /* White border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Inner spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly less transparent on focus */
+  border-color: #469aa1; /* Change border color on focus */
+}
+
+button {
+  padding: 10px 15px; /* Button padding */
+  background-color: #469aa1; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #357c8a; /* Darker shade on hover */
+}
+.welcome-heading {
+  color: lightpink; /* Light pink color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
